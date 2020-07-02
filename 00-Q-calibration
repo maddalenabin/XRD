@@ -1,0 +1,18 @@
+# -- import packages
+import matplotlib.pyplot as plt
+import numpy as np
+import fabio
+import loki
+import os
+import sys
+import h5py
+
+sys.path.insert(0, '../scripts/')
+from integrators import*
+from utilities import *
+from calibrators import*
+from fabio_open import*
+from h5_tools import*
+
+os.chdir('/Applications/anaconda3/lib/python3.7/site-packages/loki')
+from RingData import RingFit, InterpSimple, DiffCorr
