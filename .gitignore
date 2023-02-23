@@ -1,0 +1,10 @@
+02-scripts/__pycache__/
+03-data/
+04-processed/
+
+# notes
+# ignores all .md files
+# .md
+
+# does not ignore the README.md file
+# !README.md
