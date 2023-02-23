@@ -50,7 +50,6 @@ def D2O_ice_peaks():
 
     return ice_q
 
-
 def silver_behenate():
     q = [0.107625095, 0.215250189, 0.322875284, 0.430500378, 0.5380, 0.6456]
     return q
