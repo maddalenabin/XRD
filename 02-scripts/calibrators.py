@@ -51,5 +51,14 @@ def D2O_ice_peaks():
     return ice_q
 
 def silver_behenate():
-    q = [0.107625095, 0.215250189, 0.322875284, 0.430500378, 0.5380, 0.6456]
+    '''
+    Returns Silver Behenate peak positions in Angstrom
+    http://gisaxs.com/index.php/Material:Silver_behenate
+    '''
+    q = [0.107625095, 0.215250189, 0.322875284, 0.430500378, 0.5380, 0.6456,0.7532,0.8608,0.9684,1.076,1.184,1.369,1.387]
+    # There is a doublet at approximately: 1.369, 1.387 Å−1
     return q
+
+
+
+
