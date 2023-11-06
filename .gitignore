@@ -1,6 +1,11 @@
+# directories
 02-scripts/__pycache__/
 03-data/
-04-processed/
+
+# files
+04-processed/calibrator-2023-02-22.hdf5
+04-processed/2023-02-23-all.hdf5
+04-processed/q.npy
 
 # notes
 # ignores all .md files
